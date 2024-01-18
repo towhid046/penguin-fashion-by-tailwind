@@ -30,10 +30,10 @@
           <img src="/icons/logo.png" alt="" />
         </div>
         <ul class="text-xl flex gap-7">
-          <li><a href="">Home</a></li>
-          <li><a href="">Products</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Contact Us</a></li>
+          <li><a class="hover:text-[#A4BC46]" href="">Home</a></li>
+          <li><a class="hover:text-[#A4BC46]" href="">Products</a></li>
+          <li><a class="hover:text-[#A4BC46]" href="">About Us</a></li>
+          <li><a class="hover:text-[#A4BC46]" href="">Contact Us</a></li>
         </ul>
       </nav>
       <!-- banner section -->
@@ -50,9 +50,10 @@
             industry
           </p>
           <button
-            class="bg-[#A4BC46] py-3 px-5 font-medium text-gray-100 text-lg rounded-lg"
+            class="bg-[#A4BC46] py-3 px-5 font-medium text-gray-100 text-lg rounded-lg flex items-center gap-3"
           >
-            Buy Now
+            <img class="w-10" src="/icons/shopping-cart 1.png" alt="">
+            <span>Buy Now</span>
           </button>
         </div>
         <img src="/images/model.png" alt="" />
@@ -209,15 +210,42 @@
       </section>
 
       <!-- features secton -->
-      <section class="features py-10 flex justify-between gap-6">
-        <div class="fetures-content">
-          <div class="feature-box">
-            <img src="/icons/" alt="">
+      <section class="features py-10 flex  flex-col justify-between gap-6 items-center md:flex-row">
+        <div class="fetures-content  space-y-7">
+
+          <div class="feature-box shadow-lg shadow-black-500/200  flex gap-6 p-4 rounded-xl">
+            <img class="w-24" src="/icons/house.png" alt="">
+            <div class="box-text">
+              <h4 class="text-2xl font-semibold text-gray-800 mb-4">Find the Perfect Fit</h4>
+              <p class="text-base text-gray-800">Everybody is different, which is different, which is why we</p>
+            </div>
           </div>
+
+          <div class="feature-box shadow-lg shadow-black-500/200  flex gap-6 p-4 rounded-xl">
+            <img class="w-24" src="/icons/house.png" alt="">
+            <div class="box-text">
+              <h4 class="text-2xl font-semibold text-gray-800 mb-4">Find the Perfect Fit</h4>
+              <p class="text-base text-gray-800">Everybody is different, which is different, which is why we</p>
+            </div>
+          </div>
+
+          <div class="feature-box shadow-lg shadow-black-500/200  flex gap-6 p-4 rounded-xl">
+            <img class="w-24" src="/icons/house.png" alt="">
+            <div class="box-text">
+              <h4 class="text-2xl font-semibold text-gray-800 mb-4">Find the Perfect Fit</h4>
+              <p class="text-base text-gray-800">Everybody is different, which is different, which is why we</p>
+            </div>
+          </div>
+          
         </div>
-        <div class="fetures-img"></div>
+        <div class="fetures-img md:w-3/5 ">
+          <img src="/images/shopping.png" alt="">
+        </div>
       </section>
+
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
   </body>
 </html>
